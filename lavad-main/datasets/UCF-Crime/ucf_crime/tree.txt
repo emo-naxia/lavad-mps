@@ -1,0 +1,25 @@
+ucf_crime/                     <- UCF-Crime data
+|
+├── annotations                  <- Annotation files
+|
+├── captions                     <- Caption files
+│   ├── raw                        <- Raw frame captions
+│   ├── summary                    <- Temporal summaries
+│   ├── clean                      <- Cleaned frame captions
+│   └── clean_summary              <- Temporal summaries after finding semantically closest neighbors
+|
+├── filenames                    <- Mapping between semantically closest neighbors and filenames
+│   └── clean_summary              <- Mapping for temporal summaries
+|
+├── frames                       <- Frame files
+|
+├── index                        <- Indexes
+│   └── summary                    <- Indexes built with temporal summaries
+|
+├── scores                       <- Scores
+│   ├── raw                        <- Scores of temporal summaries
+│   └── refined                    <- Scores of temporal summaries after finding semantically closest neighbors
+|
+└── similarity                   <- Similarity scores
+    └── clean_summary              <- Similarity scores of temporal summaries after finding semantically closest neighbors
+

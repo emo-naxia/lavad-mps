@@ -1,0 +1,1 @@
+Please summarize what happened in few sentences, based on the following temporal description of a scene. Do not include any unnecessary details or descriptions.
